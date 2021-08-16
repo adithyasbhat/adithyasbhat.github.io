@@ -1,0 +1,79 @@
+/* Generic Styles */
+.inp-group{
+    padding: 5px;
+}
+.inp-group label, .inp-group input, .inp-group select{
+    margin: 3px;
+}
+.inp-group input, .inp-group select{
+    padding: 5px;
+    border-radius: 3px;
+    border: 0.5px solid;
+    outline: none; 
+}
+.error-msg{
+    text-align: center;
+    margin-top: 5px;
+}
+span.error-msg-field{
+    font-size:14px;
+}
+/* End of generic Styles */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius:3px;
+    overflow: hidden;
+}
+.modal-hdr, .modal-footer, .modal-body, .modal-confirm{
+    padding: 10px;
+}
+.modal-hdr{
+    background-color: black;
+    color: white;
+}
+.modal-hdr h1{
+    float: left;
+    font-weight: normal;
+}
+.modal-hdr span{
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.modal-hdr span i{
+    font-size: 17px;
+}
+.modal-footer button{
+    float: right;
+}
+.modal-btn{
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: #d7d7d7;
+}
+
+/* Confirm Modal Section */
+.modal-confirm .confirm-actions button{
+    margin: 5px 5px 0px;
+    float: right;
+}
+/* End Confirm Modal Section */
+/* Alert Modal Section */
+.modal-alert .alert-footer{
+    padding: 5px;
+}
+.modal-alert .alert-footer button{
+    display: block;
+    margin: auto;
+}
+/* End Alert Modal Section */
+/* Create org */
+.create-org-inp{
+    text-transform: uppercase;
+}
