@@ -1,1 +1,0 @@
-Profile of Ishwar Bhat
