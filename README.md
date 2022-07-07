@@ -1,1 +1,1 @@
-Profile of Ishwar Bhat
+Profile of Adithya Bhat
